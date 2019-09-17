@@ -22,7 +22,7 @@ public class Node {
 
 	public Node(String data, Node next) {
 		this.data = this.data;
-		next = next;
+		this.next = next;
 	}
 
 	public String toString() {
