@@ -17,5 +17,19 @@ public class LinkedListTest {
 		list.addNodeInLast(subnodo);
 		assertEquals(list.tail, subnodo);
 	}
+	
+	@Test
+	public void testTraverseLenghtZero() {
+		LinkedList list = new LinkedList();
+		assertEquals(list.traverse(), 0);
+	}
+	
+	@Test
+	public void testTraverseSize() {
+		LinkedList list = new LinkedList();
+		Node nodo = new Node("Teste", null);
+		list.addNodeInLast(nodo);
+		assertEquals(list.traverse(), null);
+	}
 
 }
