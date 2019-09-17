@@ -25,6 +25,7 @@ public class Node {
 		next = next;
 	}
 
-public String toString (){
-	return data;
+	public String toString() {
+		return data;
+	}
 }
