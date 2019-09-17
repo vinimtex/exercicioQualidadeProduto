@@ -21,7 +21,7 @@ public class Node {
 	}
 
 	public Node(String data, Node next) {
-		this.data = this.data;
+		this.data = data;
 		this.next = next;
 	}
 

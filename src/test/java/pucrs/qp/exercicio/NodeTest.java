@@ -20,4 +20,16 @@ public class NodeTest {
 		assertEquals(nodo.getNext(), subNode);
 	}
 	
+	@Test
+	public void testNodeData() {
+		Node nodo = new Node("Outro nodo", null);
+		assertEquals(nodo.getData(), "Outro nodo");
+	}
+	
+//	@Test
+//	public void testNodeDataSetData() {
+//		Node nodo = new Node("Outro nodo", null);
+//		assertEquals(nodo.getData(), "Outro nodo");
+//	}
+	
 }
