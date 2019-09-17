@@ -9,12 +9,13 @@ import pucrs.qp.exercicio.*;
 public class LinkedListTest {
 
 	@Test
-	public void test() {
-//		LinkedList list = new LinkedList();
-//		Node subnodo = new Node("subNode", null);
-//		Node nodo = new Node("Teste", subnodo);
-//		list.addNodeInLast(nodo);
-//		list.
+	public void testAddNodeInLast() {
+		LinkedList list = new LinkedList();
+		Node subnodo = new Node("subNode", null);
+		Node nodo = new Node("Teste", subnodo);
+		list.addNodeInLast(nodo);
+		list.addNodeInLast(subnodo);
+		assertEquals(list.tail, subnodo);
 	}
 
 }

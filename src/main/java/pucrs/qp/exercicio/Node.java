@@ -9,7 +9,7 @@ public class Node {
 	}
 
 	public void setData(String data) {
-		this.data = this.data;
+		this.data = data;
 	}
 
 	public Node getNext() {

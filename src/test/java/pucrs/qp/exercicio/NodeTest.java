@@ -26,10 +26,11 @@ public class NodeTest {
 		assertEquals(nodo.getData(), "Outro nodo");
 	}
 	
-//	@Test
-//	public void testNodeDataSetData() {
-//		Node nodo = new Node("Outro nodo", null);
-//		assertEquals(nodo.getData(), "Outro nodo");
-//	}
+	@Test
+	public void testNodeDataSetData() {
+		Node nodo = new Node(null, null);
+		nodo.setData("Teste");
+		assertEquals(nodo.getData(), "Teste");
+	}
 	
 }
